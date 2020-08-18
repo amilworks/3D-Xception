@@ -90,7 +90,7 @@ numba==0.43.1
 numpy==1.18.5
 #nvidia-dali-cuda110==0.23.0
 nvidia-ml-py3==7.352.0
-olefile==0.46
+#olefile==0.46
 opencv-python==3.4.1.15
 packaging==20.4
 pandas==0.24.2
