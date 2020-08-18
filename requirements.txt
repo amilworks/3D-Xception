@@ -1,11 +1,11 @@
 absl-py==0.9.0
 alabaster==0.7.12
-apex==0.1
+#apex==0.1
 appdirs==1.4.4
 ascii-graph==1.5.1
 attrs==19.3.0
 audioread==2.1.8
-av @ file:///home/conda/feedstock_root/build_artifacts/av_1595099321422/work
+av
 Babel==2.8.0
 backcall==0.2.0
 beautifulsoup4==4.9.1
@@ -32,7 +32,6 @@ DataProperty==0.49.1
 decorator==4.4.2
 defusedxml==0.6.0
 dill==0.2.9
-DLLogger @ git+https://github.com/NVIDIA/dllogger@26a0f8f1958de2c0c460925ff6102a4d2486d6cc
 docutils==0.15.2
 entrypoints==0.3
 filelock==3.0.12
@@ -51,10 +50,10 @@ importlib-metadata==1.7.0
 inflect==4.1.0
 ipdb==0.13.3
 ipykernel==5.3.2
-ipython @ file:///tmp/build/80754af9/ipython_1593447367857/work
+#ipython @ file:///tmp/build/80754af9/ipython_1593447367857/work
 ipython-genutils==0.2.0
 itsdangerous==1.1.0
-jedi @ file:///tmp/build/80754af9/jedi_1592841914522/work
+#jedi @ file:///tmp/build/80754af9/jedi_1592841914522/work
 Jinja2==2.11.2
 jmespath==0.10.0
 joblib==0.16.0
@@ -74,7 +73,6 @@ lmdb==0.98
 Mako==1.1.3
 Markdown==3.2.2
 MarkupSafe==1.1.1
-maskrcnn-benchmark @ file:///opt/pytorch/examples/maskrcnn/pytorch
 matplotlib==3.2.2
 mbstrdecoder==1.0.0
 mccabe==0.6.1
@@ -93,10 +91,9 @@ nltk==3.5
 notebook==6.0.3
 numba==0.43.1
 numpy==1.18.5
-nvidia-dali-cuda110==0.23.0
+#nvidia-dali-cuda110==0.23.0
 nvidia-ml-py3==7.352.0
 olefile==0.46
-onnx @ file:///opt/pytorch/pytorch/third_party/onnx
 onnxruntime==1.3.0
 opencv-python==3.4.1.15
 packaging==20.4
@@ -106,8 +103,8 @@ parso==0.7.0
 pathvalidate==2.3.0
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow @ file:///home/conda/feedstock_root/build_artifacts/pillow_1594212964103/work
-Pillow-SIMD @ file:///tmp/pillow-simd
+#Pillow @ file:///home/conda/feedstock_root/build_artifacts/pillow_1594212964103/work
+#Pillow-SIMD @ file:///tmp/pillow-simd
 pkginfo==1.5.0.1
 plac==0.9.6
 pluggy==0.13.1
@@ -120,7 +117,7 @@ psutil==5.7.0
 ptyprocess==0.6.0
 py==1.9.0
 pybind11==2.5.0
-pycocotools @ git+https://github.com/nvidia/cocoapi.git@6ac4a93058202603f36fd1ce47228e7d81119e5a#subdirectory=PythonAPI
+#pycocotools @ git+https://github.com/nvidia/#cocoapi.git@6ac4a93058202603f36fd1ce47228e7d81119e5a#subdirectory=PythonAPI
 pycodestyle==2.5.0
 pycosat==0.6.3
 pycparser==2.20
@@ -130,7 +127,7 @@ pyflakes==2.1.1
 Pygments==2.6.1
 pyOpenSSL==19.1.0
 pyparsing==2.4.7
-pyprof @ file:///opt/pytorch/pyprof
+#pyprof @ file:///opt/pytorch/pyprof
 pyrsistent==0.16.0
 PySocks==1.7.1
 pytablewriter==0.54.0
@@ -147,17 +144,17 @@ pytz==2020.1
 PyWavelets==1.1.1
 PyYAML==5.3.1
 pyzmq==19.0.1
-regex @ file:///tmp/build/80754af9/regex_1593435572336/work
-requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+#regex @ file:///tmp/build/80754af9/regex_1593435572336/work
+#requests @ file:///tmp/build/80754af9/requests_1592841827918/work
 resampy==0.2.2
-revtok @ git+git://github.com/jekbradbury/revtok.git@f1998b72a941d1e5f9578a66dc1c20b01913caab
+#revtok @ git+git://github.com/jekbradbury/revtok.git@f1998b72a941d1e5f9578a66dc1c20b01913caab
 ruamel-yaml==0.15.87
 s3transfer==0.3.3
 sacrebleu==1.2.10
 sacremoses==0.0.35
 scikit-image==0.15.0
 scikit-learn==0.23.1
-scipy @ file:///tmp/build/80754af9/scipy_1592930497347/work
+scipy
 Send2Trash==1.5.0
 sentencepiece==0.1.91
 six==1.15.0
@@ -174,13 +171,9 @@ sphinxcontrib-htmlhelp==1.0.3
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
-SSD @ file:///opt/pytorch/examples/ssd
-subword-nmt @ git+git://github.com/rsennrich/subword-nmt.git@48ba99e657591c329e0003f0c6e32e493fa959ef
 tabledata==1.1.2
 tabulate==0.8.7
 tcolorpy==0.0.5
-tensorboard @ file:///nvidia/opt/tensorboard_install/tensorboard-1.15.0%2Bnv-py3-none-any.whl
-tensorboard-plugin-dlprof @ file:///nvidia/opt/tensorboard_install/tensorboard_plugin_dlprof-0.5-py3-none-any.whl
 tensorrt==7.1.3.4
 terminado==0.8.3
 testpath==0.4.4
@@ -189,19 +182,17 @@ thinc==6.12.1
 threadpoolctl==2.1.0
 toml==0.10.1
 toolz==0.10.0
-torch @ file:///opt/pytorch/pytorch
-torchtext @ file:///opt/pytorch/text
-torchvision @ file:///opt/pytorch/vision
+torch
+torchtext 
+torchvision
 tornado==6.0.4
 tqdm==4.31.1
 traitlets==4.3.3
 typepy==1.1.1
 typing==3.7.4.1
 typing-extensions==3.7.4.2
-ujson @ file:///tmp/build/80754af9/ujson_1592441251225/work
 Unidecode==1.1.1
 urllib3==1.25.9
-wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
 Werkzeug==1.0.1
 wrapt==1.10.11
