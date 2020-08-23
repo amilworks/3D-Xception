@@ -2,9 +2,7 @@
 import torchvision
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
-%matplotlib inline
-%config InlineBackend.figure_format = 'retina'
-plt.rcParams['figure.dpi'] = 150
+
 
 
 
