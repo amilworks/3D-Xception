@@ -1,6 +1,6 @@
 # 3DXception
 #### Author: Amil Khan
-==============================
+
 
 ## Background
 This repository consists of a PyTorch implementation of 3DXception, a convolutional neural network for video classification. The code enables users to train 3DXception for problems in video classification, but has not been tested for data outside videos such as volumetric data. This network is based on the successful Xception network by François Chollet. The paper is __Xception: Deep Learning with Depthwise Separable Convolutions__ and I highly recommend you check it out. For convenience, I will attach an abridged version of [Chollet's Xception Paper Abstract](https://arxiv.org/pdf/1610.02357):
